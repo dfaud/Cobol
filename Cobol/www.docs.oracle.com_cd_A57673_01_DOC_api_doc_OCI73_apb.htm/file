@@ -1,0 +1,33 @@
+
+Programmer's Guide to the Oracle7 Server Call Interface 				Go to Product Documentation Library
+Library 		Go to books for this product
+Product 		Go to Contents for this book
+Contents 		Go to Index
+Index 	
+
+
+Go to previous file in sequence Go to next file in sequence
+Sample Programs in COBOL
+
+    CBDEM1.COB
+    CBDEM2.COB
+    CBDEM3.COB 
+
+This appendix contains three sample OCI programs written in COBOL. 
+The first adds a new employee to a database, the second processes dynamic SQL statements, 
+and the third fetches a portion of a LONG or LONG RAW column using OFLNG.
+
+Each of these sample programs is available online. The exact name and storage 
+location of these progams is system dependent. See your Oracle system-specific 
+documentation for details.
+
+This appendix contains listings for the following files:
+
+    CBDEM1.COB
+
+    CBDEM2.COB
+
+    CBDEM3.COB
+
+
+
