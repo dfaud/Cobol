@@ -1,0 +1,13 @@
+IDENTIFICATION DIVISION.                   
+PROGRAM-ID. PGM001.                        
+AUTHOR. MAINFRAMEWIZARD. 
+                  
+DATA DIVISION.                             
+WORKING-STORAGE SECTION.                   
+01 VAR1 PIC 9(3) VALUE ZEROES.
+             
+PROCEDURE DIVISION.                        
+10000-MAIN-PARA.                           
+     ACCEPT VAR1.                          
+     DISPLAY 'VARIABLE INPUT IS=' VAR1.    
+     STOP RUN.

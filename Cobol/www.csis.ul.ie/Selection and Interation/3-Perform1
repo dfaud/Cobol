@@ -9,6 +9,7 @@ AUTHOR.  Michael Coughlan.
 
 * An example program demonstrating how the first format of the PERFORM may be used to change the flow of control through a program.
 * PERFORM
+
 PROCEDURE DIVISION.
 TopLevel.
     DISPLAY "In TopLevel. Starting to run program"
