@@ -1,0 +1,5 @@
+IDENTIFICATION DIVISION.                                         
+PROGRAM-ID. PGM000.                                              
+PROCEDURE DIVISION.                                              
+    DISPLAY 'SMALLEST PROGRAM BY MAINFRAMEWIZARD '               
+    STOP RUN. 
