@@ -3,6 +3,8 @@ IDENTIFICATION DIVISION.
 PROGRAM-ID.  ShortestProgram.
 * This example program is almost the shortest COBOL program we can have. 
 * We could make it shorter still by leaving out the STOP RUN.
+* MAJOR CONSTRUCT
+* DISPLAY
 
 PROCEDURE DIVISION.
 DisplayPrompt.
