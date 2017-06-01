@@ -1,0 +1,18 @@
+IDENTIFICATION DIVISION.                                         
+PROGRAM-ID. PGM002.                                              
+AUTHOR. MAINFRAMEWIZARD. 
+                                        
+DATA DIVISION.                                                   
+WORKING-STORAGE SECTION.                                         
+01 DATE1 PIC X(8).                                               
+01 DATE2 REDEFINES DATE1.                                        
+   05 DATE2-DD    PIC X(2).                                      
+   05 DATE2-MM    PIC X(2).                                      
+   05 DATE2-YYYY  PIC X(4).                                      
+
+PROCEDURE DIVISION.                                              
+10000-MAIN-PARA.                                                 
+      MOVE 08092010 TO DATE1                                     
+      DISPLAY 'DATE =' DATE1                                     
+      DISPLAY 'YEAR OF DATE=' DATE2-YYYY                         
+      STOP RUN.

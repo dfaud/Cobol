@@ -1,0 +1,21 @@
+IDENTIFICATION DIVISION.                          
+PROGRAM-ID. PGM003.                               
+AUTHOR. MAINFRAMEWIZARD.
+                          
+DATA DIVISION.                                    
+WORKING-STORAGE SECTION.                          
+01 GROUP1.                                        
+   05 REC1.                                       
+      10 ELEMENT1 PIC X(3) VALUE 'WWW'.           
+      10 ELEMENT2 PIC X(9) VALUE 'MAINFRAME'.     
+   05 REC2.                                       
+      10 ELEMENT3 PIC X(6) VALUE 'WIZARD'.        
+      10 ELEMENT4 PIC X(1) VALUE '.'.             
+      10 ELEMENT5 PIC X(3) VALUE 'COM'.
+                
+   66 GROUP2  RENAMES ELEMENT2 THRU ELEMENT5.     
+
+PROCEDURE DIVISION.                               
+10000-MAIN-PARA.                                  
+      DISPLAY 'RENAME CLAUSE DEPICTED BY ' GROUP2.
+      STOP RUN.
