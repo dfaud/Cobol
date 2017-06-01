@@ -1,0 +1,43 @@
+IDENTIFICATION DIVISION.                                         
+PROGRAM-ID. PGM008.                                              
+AUTHOR. MAINFRAMEWIZARD. 
+                                        
+DATA DIVISION.                                                   
+WORKING-STORAGE SECTION.                                         
+01 NUM1  PIC Z999.                                               
+01 NUM2  PIC **99.                                               
+01 NUM3  PIC $999.                                               
+01 NUM4  PIC -999.                                               
+01 NUM5  PIC +999.                                               
+01 NUM6  PIC 99CR.                                               
+01 NUM7  PIC 99DB.                                               
+01 NUM8  PIC 9.99.                                               
+01 NUM9  PIC 99,9.                                               
+01 NUM10 PIC 9B99.                                               
+                                                                 
+                                                                 
+PROCEDURE DIVISION.                                              
+10000-MAIN-PARA.                                                                                                                                                                          
+        MOVE 34 TO NUM1                                          
+                   NUM2                                          
+                   NUM3                                          
+                   NUM4                                          
+                   NUM5                                          
+                   NUM6                                          
+                   NUM7                                          
+                   NUM8                                          
+                   NUM9                                          
+                   NUM10.                                        
+                                                                 
+        DISPLAY 'NUM1  Z999    =' NUM1                           
+        DISPLAY 'NUM2  **99    =' NUM2                           
+        DISPLAY 'NUM3  $999    =' NUM3                           
+        DISPLAY 'NUM4  -999    =' NUM4                           
+        DISPLAY 'NUM5  +999    =' NUM5                           
+        DISPLAY 'NUM6  99CR    =' NUM6                           
+        DISPLAY 'NUM7  99DB    =' NUM7                           
+        DISPLAY 'NUM8  9.99    =' NUM8                           
+        DISPLAY 'NUM9  99,9    =' NUM9                           
+        DISPLAY 'NUM10 9B99    =' NUM10                          
+                                                                 
+        STOP RUN.
