@@ -2,6 +2,7 @@ $ SET SOURCEFORMAT"FREE"
 IDENTIFICATION DIVISION.
 PROGRAM-ID.  Multiplier.
 AUTHOR.  Michael Coughlan.
+* Ajout de cette ligne
 * Example program using ACCEPT, DISPLAY and MULTIPLY to 
 * get two single digit numbers from the user and multiply them together
 
