@@ -1,0 +1,14 @@
+INITILIAZING A FILLER IN GROUP VARIABLE
+When we initialize a group level variable, the FILLERS which are under this group variable remains unaffected. As a result, the FILLERS retain their previous content even after the INITIALIZE statement. .
+For Example:-
+    01  GROUP-VAR.
+          05  ELEMENT1   PIC X(25)
+          05  ELEMENT2        PIC 9(9)
+          05  FILLER                  PIC X(15)
+
+
+Here if GROUP-VAR is initialized, the FILLER will not get initialized .
+In such cases, we should first move spaces into the group variable and then initialize.
+ 
+MOVE SPACES TO GROUP-VAR.
+INITIALIZE GROUP-VAR.

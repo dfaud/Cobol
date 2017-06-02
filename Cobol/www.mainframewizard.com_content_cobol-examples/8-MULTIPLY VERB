@@ -1,0 +1,53 @@
+IDENTIFICATION DIVISION.                                         
+PROGRAM-ID. PGM006.                                              
+AUTHOR. MAINFRAMEWIZARD.                                         
+DATA DIVISION.                                                   
+WORKING-STORAGE SECTION.                                         
+01 NUM1  PIC 9(3) VALUE 05.                                      
+01 NUM2  PIC 9(3) VALUE 10.                                      
+01 NUM3  PIC 9(3) VALUE 15.                                      
+01 NUM4  PIC 9(3) VALUE 20.                                      
+01 NUM5  PIC 9(3) VALUE 25.                                      
+01 NUM6  PIC 9(3) VALUE 30.                                      
+01 NUM7  PIC 9(3) VALUE 05.                                      
+01 NUM8  PIC 9(3) VALUE 10.                                      
+01 NUM9  PIC 9(3) VALUE 15.                                      
+                                                                 
+PROCEDURE DIVISION.                                              
+10000-MAIN-PARA.                                                 
+                                                                 
+        DISPLAY 'MULTIPLY NUM1 BY NUM2'                          
+        DISPLAY 'NUM1 BEFORE =' NUM1                             
+        DISPLAY 'NUM2 BEFORE =' NUM2  
+                                   
+        MULTIPLY NUM1 BY NUM2                                    
+        
+        DISPLAY 'NUM1 AFTER  =' NUM1                             
+        DISPLAY 'NUM2 AFTER  =' NUM2                             
+        DISPLAY '--------------------------'                     
+                                                                 
+        DISPLAY 'MULTIPLY NUM3 BY NUM4 GIVING NUM5 NUM6'         
+        DISPLAY 'NUM3 BEFORE =' NUM3                             
+        DISPLAY 'NUM4 BEFORE =' NUM4                             
+        DISPLAY 'NUM5 BEFORE =' NUM5                             
+        DISPLAY 'NUM6 BEFORE =' NUM6                             
+        
+        MULTIPLY NUM3 BY NUM4 GIVING NUM5 NUM6                   
+        
+        DISPLAY 'NUM3 AFTER  =' NUM3                             
+        DISPLAY 'NUM4 AFTER  =' NUM4                             
+        DISPLAY 'NUM5 AFTER  =' NUM5                             
+        DISPLAY 'NUM6 AFTER  =' NUM6                             
+        DISPLAY '--------------------------'                     
+                                                                 
+        DISPLAY 'MULTIPLY NUM7 BY NUM8 GIVING NUM9'              
+        DISPLAY 'NUM7 BEFORE =' NUM7                             
+        DISPLAY 'NUM8 BEFORE =' NUM8                             
+        DISPLAY 'NUM9 BEFORE =' NUM9                             
+        MULTIPLY NUM7 BY NUM8 GIVING NUM9                        
+        DISPLAY 'NUM7 AFTER  =' NUM7                             
+        DISPLAY 'NUM8 AFTER  =' NUM8                             
+        DISPLAY 'NUM9 AFTER  =' NUM9                             
+        DISPLAY '--------------------------'                     
+                                                                 
+        STOP RUN.
